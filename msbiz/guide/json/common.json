@@ -1,0 +1,47 @@
+[
+    {
+        "directory": "/msbiz/html"
+    },
+    {
+        "id": "test1",
+        "type": "본문",
+        "depth1": "공통",
+        "depth2": "",
+        "depth3": "",
+        "depth4": "",
+        "name": "",
+        "worker": null,
+        "workdate": null,
+        "change": null,
+        "complete": "완료",
+        "etc": null
+    },
+    {
+        "id": "test2",
+        "type": "본문",
+        "depth1": "공통",
+        "depth2": "",
+        "depth3": "",
+        "depth4": "",
+        "name": "",
+        "worker": "",
+        "workdate": "",
+        "change": null,
+        "complete": "완료",
+        "etc": null
+    },
+    {
+        "id": "test3",
+        "type": "본문",
+        "depth1": "공통",
+        "depth2": "",
+        "depth3": "",
+        "depth4": "",
+        "name": "",
+        "worker": null,
+        "workdate": null,
+        "change": null,
+        "complete": "완료",
+        "etc": null
+    }
+]

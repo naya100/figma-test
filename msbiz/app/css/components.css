@@ -1,0 +1,41 @@
+/* Text */
+.h1 {font-size: var(--semantic-font-size-heading-large); color:var(--primitive-color-gray-900)}
+.h2 {font-size: var(--semantic-font-size-heading-medium); color:var(--primitive-color-gray-900)}
+.h3 {font-size: var(--semantic-font-size-heading-small); color:var(--primitive-color-gray-900)}
+.h4 {font-size: var(--semantic-font-size-heading-xsmall); color:var(--primitive-color-gray-900)}
+.font-size-large {font-size: var(--semantic-font-size-body-large); color:var(--primitive-color-gray-900)}
+.font-size-medium {font-size: var(--semantic-font-size-body-medium); color:var(--primitive-color-gray-900)}
+.font-size-small {font-size: var(--semantic-font-size-body-small); color:var(--primitive-color-gray-900)}
+
+/*** Button ***/
+.btns + .btns {margin-top: 3rem;}
+.button {display:inline-block; position: relative; overflow:hidden; width: 100%; padding:1.1rem 2rem; border-radius:1.2rem; font-size:var(--semantic-font-size-body-medium); line-height:2.4rem; text-align:center;}
+[class*=button-solid-primary]:hover {color:var(--primitive-color-gray-white)}
+[class*=button-solid-secondary]:hover {color:var(--primitive-color-primary-primary-500)}
+.button-solid-secondary-disabled:hover {color:var(--primitive-color-primary-primary-300)}
+[class*=button-solid-outline]:hover {color:var(--primitive-color-gray-gray-800)}
+.button-solid-outline-disabled:hover {color:var(--primitive-color-gray-gray-400)}
+.button-solid-primary-normal {background:var(--primitive-color-primary-primary-600); color:var(--primitive-color-gray-white)}
+.button-solid-primary-pressed {background:var(--primitive-color-primary-primary-700); color:var(--primitive-color-gray-white)}
+.button-solid-primary-disabled {background:var(--primitive-color-primary-primary-200); color:var(--primitive-color-gray-white)}
+.button-solid-secondary-normal {background:var(--primitive-color-gray-gray-300); color:var(--primitive-color-primary-primary-500)}
+.button-solid-secondary-pressed {background:var(--primitive-color-primary-primary-100); color:var(--primitive-color-primary-primary-500)}
+.button-solid-secondary-disabled {background:var(--primitive-color-primary-primary-200); color:var(--primitive-color-primary-primary-300)}
+.button-solid-outline-normal {background:var(--primitive-color-gray-white); color:var(--primitive-color-gray-gray-800); border-width: 1px; border-style: solid; border-color:var(--primitive-color-gray-gray-400)}
+.button-solid-outline-pressed {background:var(--primitive-color-gray-white); color:var(--primitive-color-gray-gray-800); border-width: 1px; border-style: solid; border-color:var(--primitive-color-gray-gray-600)}
+.button-solid-outline-disabled {background:var(--primitive-color-gray-white); color:var(--primitive-color-gray-gray-400); border-width: 1px; border-style: solid; border-color:var(--primitive-color-gray-gray-300)}
+
+[class*=button-text][class*=-normal]:hover {color:var(--primitive-color-gray-gray-700);}
+[class*=button-text][class*=-pressed]:hover {color:var(--primitive-color-gray-gray-600);}
+[class*=button-text][class*=-disabled]:hover {color:var(--primitive-color-gray-gray-400);}
+.button-text-primary-normal {color:var(--primitive-color-gray-gray-700); font-size:var(--semantic-font-size-buttom-large)}
+.button-text-primary-pressed {color:var(--primitive-color-gray-gray-600); font-size:var(--semantic-font-size-buttom-medium)}
+.button-text-primary-disabled {color:var(--primitive-color-gray-gray-400); font-size:var(--semantic-font-size-buttom-small)}
+.button-text-secondary-normal {color:var(--primitive-color-gray-gray-700); font-size:var(--semantic-font-size-buttom-large)}
+.button-text-secondary-pressed {color:var(--primitive-color-gray-gray-600); font-size:var(--semantic-font-size-buttom-medium)}
+.button-text-secondary-disabled {color:var(--primitive-color-gray-gray-400); font-size:var(--semantic-font-size-buttom-small)}
+.button-text-outline-normal {color:var(--primitive-color-gray-gray-700); font-size:var(--semantic-font-size-buttom-large)}
+.button-text-outline-pressed {color:var(--primitive-color-gray-gray-600); font-size:var(--semantic-font-size-buttom-medium)}
+.button-text-outline-disabled {color:var(--primitive-color-gray-gray-400); font-size:var(--semantic-font-size-buttom-small)}
+
+.pg-footer .button {font-size:var(--semantic-font-size-buttom-large); line-height:3.4rem;}
